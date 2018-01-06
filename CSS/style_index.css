@@ -14,13 +14,18 @@ header {
     background-color: bisque;
 }
 
-/*-------------------NAV KEIRE---------------------------------------------------------*/
+/*-------------------NAV KAIRE---------------------------------------------------------*/
 
 nav {
     float: left;
     width: 200px;
     height: 900px;
-    background-color: blueviolet;
+    background-color: #1f2637;
+    font-family: Arial;
+}
+
+.nav_add_a_book {
+    background-color: gray;
 }
 
 /*-------------------SECTION (Desine puse)----------------------------------------------*/
