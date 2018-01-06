@@ -109,8 +109,114 @@ section {
 .books {
     width: 100%;
     height: 780px;
-    background-color: darkgreen;
+    background-color: white;
+    /*bp: pakeiciau is zalios*/
 }
+
+/*bp: pagrindinis konteiners*/
+
+.books_grid-container {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-auto-rows: 380px;
+    grid-gap: 15px;
+    /*BP!!!!!!!!!1 PAZIURETI, kokie tiksliai tarpai tarp grido*/
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 15px;
+    padding-right: 15px;
+
+    font-family: Arial;
+    /*pakišti prie bendro*/
+    font-size: 14px;
+    /*pakišti prie bendro*/
+}
+
+.books_scroll-area {
+    overflow-y: scroll;
+    max-height: 730px;
+}
+
+/*bp: 1 knygos erdve*/
+
+.books_box {
+    background-color: white;
+}
+
+.books img {
+    /*BP:!!!!!!!!!!!!!! DAR PAZIURETI, KAIP TEN TIKSLIAI PAVEIKSLELI SUFORMATUOTI, KAD JIS GRAZIAI UZSIPILDYTU*/
+    width: 100%;
+    height: 76%;
+    background-size: contain;
+    border-radius: 6px;
+}
+
+.books h3 {
+    padding-top: 15px;
+    margin: 0;
+    color: #444c63;
+    /*bp:parinkta su color droperiu ir color pickeriu*/
+}
+
+.books p {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin: 0;
+    color: #6f7d95;
+}
+
+.books_rating-static {
+    width: 80px;
+    height: 20px;
+    display: block;
+    background: url(../IMG/books_ratingStars.png);
+}
+
+.books_rating-0 {
+    background-position: 0 0;
+}
+
+.books_rating-5 {
+    background-position: 0 -17px;
+}
+
+.books_rating-10 {
+    background-position: 0 -34px;
+}
+
+.books_rating-15 {
+    background-position: 0 -51px;
+}
+
+.books_rating-20 {
+    background-position: 0 -69px;
+}
+
+.books_rating-25 {
+    background-position: 0 -86px;
+}
+
+.books_rating-30 {
+    background-position: 0 -104px;
+}
+
+.books_rating-35 {
+    background-position: 0 -122px;
+}
+
+.books_rating-40 {
+    background-position: 0 -140px;
+}
+
+.books_rating-45 {
+    background-position: 0 -157px;
+}
+
+.books_rating-50 {
+    background-position: 0 -175px;
+}
+
+
 
 /*-------------------FOOTER------------------------------------------------------------*/
 
