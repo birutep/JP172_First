@@ -66,11 +66,13 @@ section {
     border-radius: 32px 32px 32px 32px;
 }
 
+/*
 .bookFilter a.active {
     background-color: #95a7c1;
     color: white;
     border-radius: 32px 32px 32px 32px;
 }
+*/
 
 .bookFilter input[type=text] {
     width: 230px;
